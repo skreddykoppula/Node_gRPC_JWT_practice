@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="grid grid-cols-6">
+        <div class="col-start-3 col-span-2">
+            <h1>Checking gRPC</h1>
+            <form action="/id" method="post" >
+                <div class="py-3">
+                    <label for="id">id:</label>
+                    <input type="id" name="id" class="border border-gray-300 text-gray-900 rounded p-2 w-full">
+                </div>
+                <div class="py-3">
+                    <button type="submit" class="text-white bg-green-600 hover:bg-green-800 font-medium rounded px-5 py-2 ">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write ."
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.3",
+    "prettier": "^3.3.2"
+  }
+}

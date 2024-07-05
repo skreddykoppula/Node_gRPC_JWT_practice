@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+service messageService{
+    rpc sendData(request) returns (responce);
+}
+
+message request{
+    string id = 1;
+}
+
+
+message responce{
+    repeated data response =1;
+}
+
+
+message data  {
+    string street = 1;
+    string city = 2;
+    string state = 3;
+    string country = 4;
+    string pincode = 5;
+}
+
+
